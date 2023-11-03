@@ -5,7 +5,7 @@ count = 0
 while True:
     user_input = input("Enter an integer (or 'q' to quit): ")
 
-    if user_input.lower() == 'q':
+    if user_input == 'q':
         break
 
     try:
